@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C721F4D02C04E6920095A1E6 /* AddQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C721F4CF2C04E6920095A1E6 /* AddQuestionsView.swift */; };
+		C721F4D22C04EAC80095A1E6 /* PopUpChangeAppStateBetweenTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C721F4D12C04EAC80095A1E6 /* PopUpChangeAppStateBetweenTwo.swift */; };
+		C76918892BF22BAC003656EE /* Guess_Who_AnsweredApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918882BF22BAC003656EE /* Guess_Who_AnsweredApp.swift */; };
+		C769188B2BF22BAC003656EE /* InGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C769188A2BF22BAC003656EE /* InGameView.swift */; };
+		C769188D2BF22BAD003656EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C769188C2BF22BAD003656EE /* Assets.xcassets */; };
+		C76918902BF22BAD003656EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C769188F2BF22BAD003656EE /* Preview Assets.xcassets */; };
+		C76918992BF267A6003656EE /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918982BF267A6003656EE /* StartingView.swift */; };
+		C769189B2BF267CD003656EE /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C769189A2BF267CD003656EE /* HeaderView.swift */; };
+		C76918A02BF2684A003656EE /* MainViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C769189F2BF2684A003656EE /* MainViewVM.swift */; };
+		C76918A32BF268A0003656EE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918A22BF268A0003656EE /* Extensions.swift */; };
+		C76918A72BF268CF003656EE /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918A62BF268CF003656EE /* Enums.swift */; };
+		C76918AB2BF26E55003656EE /* ScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918AA2BF26E55003656EE /* ScoresView.swift */; };
+		C76918AD2BF26EEA003656EE /* PlayerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918AC2BF26EEA003656EE /* PlayerButton.swift */; };
+		C76918B32BF353F5003656EE /* SetAnswersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918B22BF353F5003656EE /* SetAnswersView.swift */; };
+		C76918B72BF354B7003656EE /* SetPlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918B62BF354B7003656EE /* SetPlayersView.swift */; };
+		C76918B92BF35737003656EE /* AddPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918B82BF35737003656EE /* AddPlayers.swift */; };
+		C76918BB2BF3C6EF003656EE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918BA2BF3C6EF003656EE /* MainView.swift */; };
+		C76918BD2BF3C77B003656EE /* AddPlayersSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918BC2BF3C77B003656EE /* AddPlayersSheet.swift */; };
+		C782F93F2BFDFEF00005F8A9 /* BackgroundFinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C782F93E2BFDFEF00005F8A9 /* BackgroundFinalView.swift */; };
+		C7BB7EE92BFF64A100A28EF1 /* PopUpChangePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB7EE82BFF64A100A28EF1 /* PopUpChangePlayer.swift */; };
+		C7E0B4862BFB488D009CB711 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C7E0B4852BFB488D009CB711 /* ConfettiSwiftUI */; };
+		C7E0B4882BFD09FD009CB711 /* PopUpChangeAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0B4872BFD09FD009CB711 /* PopUpChangeAppState.swift */; };
+		C7E3F83C2C05E45000F871F3 /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E3F83B2C05E45000F871F3 /* InstructionsView.swift */; };
+		C7E784872C0B363D006A266C /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E784862C0B363D006A266C /* questions.json */; };
+		C7F843C32C009C0D00398B0E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F843C22C009C0D00398B0E /* SplashView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C721F4CF2C04E6920095A1E6 /* AddQuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionsView.swift; sourceTree = "<group>"; };
+		C721F4D12C04EAC80095A1E6 /* PopUpChangeAppStateBetweenTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpChangeAppStateBetweenTwo.swift; sourceTree = "<group>"; };
+		C76918852BF22BAC003656EE /* Guess Who Answered.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess Who Answered.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76918882BF22BAC003656EE /* Guess_Who_AnsweredApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_Who_AnsweredApp.swift; sourceTree = "<group>"; };
+		C769188A2BF22BAC003656EE /* InGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InGameView.swift; sourceTree = "<group>"; };
+		C769188C2BF22BAD003656EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C769188F2BF22BAD003656EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C76918982BF267A6003656EE /* StartingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
+		C769189A2BF267CD003656EE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C769189F2BF2684A003656EE /* MainViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewVM.swift; sourceTree = "<group>"; };
+		C76918A22BF268A0003656EE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C76918A62BF268CF003656EE /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		C76918AA2BF26E55003656EE /* ScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresView.swift; sourceTree = "<group>"; };
+		C76918AC2BF26EEA003656EE /* PlayerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerButton.swift; sourceTree = "<group>"; };
+		C76918B22BF353F5003656EE /* SetAnswersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAnswersView.swift; sourceTree = "<group>"; };
+		C76918B62BF354B7003656EE /* SetPlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPlayersView.swift; sourceTree = "<group>"; };
+		C76918B82BF35737003656EE /* AddPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayers.swift; sourceTree = "<group>"; };
+		C76918BA2BF3C6EF003656EE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C76918BC2BF3C77B003656EE /* AddPlayersSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayersSheet.swift; sourceTree = "<group>"; };
+		C782F93D2BFDFC960005F8A9 /* Guess-Who-Answered-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Guess-Who-Answered-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C782F93E2BFDFEF00005F8A9 /* BackgroundFinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundFinalView.swift; sourceTree = "<group>"; };
+		C7BB7EE82BFF64A100A28EF1 /* PopUpChangePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpChangePlayer.swift; sourceTree = "<group>"; };
+		C7E0B4872BFD09FD009CB711 /* PopUpChangeAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpChangeAppState.swift; sourceTree = "<group>"; };
+		C7E3F83B2C05E45000F871F3 /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
+		C7E784862C0B363D006A266C /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		C7F843C22C009C0D00398B0E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C76918822BF22BAC003656EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E0B4862BFB488D009CB711 /* ConfettiSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C769187C2BF22BAC003656EE = {
+			isa = PBXGroup;
+			children = (
+				C76918872BF22BAC003656EE /* Guess Who Answered */,
+				C76918862BF22BAC003656EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C76918862BF22BAC003656EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C76918852BF22BAC003656EE /* Guess Who Answered.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C76918872BF22BAC003656EE /* Guess Who Answered */ = {
+			isa = PBXGroup;
+			children = (
+				C782F93D2BFDFC960005F8A9 /* Guess-Who-Answered-Info.plist */,
+				C76918882BF22BAC003656EE /* Guess_Who_AnsweredApp.swift */,
+				C769189D2BF267D9003656EE /* Views */,
+				C769189C2BF267D1003656EE /* Components */,
+				C769189E2BF26837003656EE /* ViewModels */,
+				C76918A52BF268BC003656EE /* Models */,
+				C76918A12BF26894003656EE /* Extensions */,
+				C769188C2BF22BAD003656EE /* Assets.xcassets */,
+				C7E784862C0B363D006A266C /* questions.json */,
+				C769188E2BF22BAD003656EE /* Preview Content */,
+			);
+			path = "Guess Who Answered";
+			sourceTree = "<group>";
+		};
+		C769188E2BF22BAD003656EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C769188F2BF22BAD003656EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C769189C2BF267D1003656EE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C7E3F83B2C05E45000F871F3 /* InstructionsView.swift */,
+				C7E0B4872BFD09FD009CB711 /* PopUpChangeAppState.swift */,
+				C721F4D12C04EAC80095A1E6 /* PopUpChangeAppStateBetweenTwo.swift */,
+				C782F93E2BFDFEF00005F8A9 /* BackgroundFinalView.swift */,
+				C769189A2BF267CD003656EE /* HeaderView.swift */,
+				C76918BE2BF3C78D003656EE /* Players */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		C769189D2BF267D9003656EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C76918BA2BF3C6EF003656EE /* MainView.swift */,
+				C7F843C22C009C0D00398B0E /* SplashView.swift */,
+				C76918982BF267A6003656EE /* StartingView.swift */,
+				C76918B62BF354B7003656EE /* SetPlayersView.swift */,
+				C721F4CF2C04E6920095A1E6 /* AddQuestionsView.swift */,
+				C76918B22BF353F5003656EE /* SetAnswersView.swift */,
+				C769188A2BF22BAC003656EE /* InGameView.swift */,
+				C76918AA2BF26E55003656EE /* ScoresView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C769189E2BF26837003656EE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C769189F2BF2684A003656EE /* MainViewVM.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		C76918A12BF26894003656EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C76918A22BF268A0003656EE /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		C76918A52BF268BC003656EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C76918A62BF268CF003656EE /* Enums.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C76918BE2BF3C78D003656EE /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				C7BB7EE82BFF64A100A28EF1 /* PopUpChangePlayer.swift */,
+				C76918AC2BF26EEA003656EE /* PlayerButton.swift */,
+				C76918B82BF35737003656EE /* AddPlayers.swift */,
+				C76918BC2BF3C77B003656EE /* AddPlayersSheet.swift */,
+			);
+			name = Players;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C76918842BF22BAC003656EE /* Guess Who Answered */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76918932BF22BAD003656EE /* Build configuration list for PBXNativeTarget "Guess Who Answered" */;
+			buildPhases = (
+				C76918812BF22BAC003656EE /* Sources */,
+				C76918822BF22BAC003656EE /* Frameworks */,
+				C76918832BF22BAC003656EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Guess Who Answered";
+			packageProductDependencies = (
+				C7E0B4852BFB488D009CB711 /* ConfettiSwiftUI */,
+			);
+			productName = "Guess Who Answered";
+			productReference = C76918852BF22BAC003656EE /* Guess Who Answered.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C769187D2BF22BAC003656EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C76918842BF22BAC003656EE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = C76918802BF22BAC003656EE /* Build configuration list for PBXProject "Guess Who Answered" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C769187C2BF22BAC003656EE;
+			packageReferences = (
+				C7E0B4842BFB488D009CB711 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
+			productRefGroup = C76918862BF22BAC003656EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C76918842BF22BAC003656EE /* Guess Who Answered */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C76918832BF22BAC003656EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E784872C0B363D006A266C /* questions.json in Resources */,
+				C76918902BF22BAD003656EE /* Preview Assets.xcassets in Resources */,
+				C769188D2BF22BAD003656EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C76918812BF22BAC003656EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76918B72BF354B7003656EE /* SetPlayersView.swift in Sources */,
+				C782F93F2BFDFEF00005F8A9 /* BackgroundFinalView.swift in Sources */,
+				C76918AB2BF26E55003656EE /* ScoresView.swift in Sources */,
+				C76918992BF267A6003656EE /* StartingView.swift in Sources */,
+				C7E3F83C2C05E45000F871F3 /* InstructionsView.swift in Sources */,
+				C76918A32BF268A0003656EE /* Extensions.swift in Sources */,
+				C7E0B4882BFD09FD009CB711 /* PopUpChangeAppState.swift in Sources */,
+				C721F4D22C04EAC80095A1E6 /* PopUpChangeAppStateBetweenTwo.swift in Sources */,
+				C721F4D02C04E6920095A1E6 /* AddQuestionsView.swift in Sources */,
+				C76918AD2BF26EEA003656EE /* PlayerButton.swift in Sources */,
+				C76918B92BF35737003656EE /* AddPlayers.swift in Sources */,
+				C769188B2BF22BAC003656EE /* InGameView.swift in Sources */,
+				C76918BB2BF3C6EF003656EE /* MainView.swift in Sources */,
+				C76918892BF22BAC003656EE /* Guess_Who_AnsweredApp.swift in Sources */,
+				C76918A72BF268CF003656EE /* Enums.swift in Sources */,
+				C7BB7EE92BFF64A100A28EF1 /* PopUpChangePlayer.swift in Sources */,
+				C76918B32BF353F5003656EE /* SetAnswersView.swift in Sources */,
+				C769189B2BF267CD003656EE /* HeaderView.swift in Sources */,
+				C76918A02BF2684A003656EE /* MainViewVM.swift in Sources */,
+				C76918BD2BF3C77B003656EE /* AddPlayersSheet.swift in Sources */,
+				C7F843C32C009C0D00398B0E /* SplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C76918912BF22BAD003656EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C76918922BF22BAD003656EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C76918942BF22BAD003656EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Guess Who Answered/Preview Content\"";
+				DEVELOPMENT_TEAM = 72CAUS7668;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Guess-Who-Answered-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlvsiOSdev.Guess-Who-Answered";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C76918952BF22BAD003656EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Guess Who Answered/Preview Content\"";
+				DEVELOPMENT_TEAM = 72CAUS7668;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Guess-Who-Answered-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlvsiOSdev.Guess-Who-Answered";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C76918802BF22BAC003656EE /* Build configuration list for PBXProject "Guess Who Answered" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76918912BF22BAD003656EE /* Debug */,
+				C76918922BF22BAD003656EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C76918932BF22BAD003656EE /* Build configuration list for PBXNativeTarget "Guess Who Answered" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76918942BF22BAD003656EE /* Debug */,
+				C76918952BF22BAD003656EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7E0B4842BFB488D009CB711 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7E0B4852BFB488D009CB711 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7E0B4842BFB488D009CB711 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C769187D2BF22BAC003656EE /* Project object */;
+}
