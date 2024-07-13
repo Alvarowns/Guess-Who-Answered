@@ -28,6 +28,12 @@ struct MainView: View {
                 ScoresView()
             }
         }
+        .onAppear {
+            UIApplication.shared.isIdleTimerDisabled = true
+        }
+        .onDisappear {
+            UIApplication.shared.isIdleTimerDisabled = false
+        }
         .animation(.easeIn, value: viewModel.appState)
     }
 }
