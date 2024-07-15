@@ -26,6 +26,7 @@
 		C76918BB2BF3C6EF003656EE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918BA2BF3C6EF003656EE /* MainView.swift */; };
 		C76918BD2BF3C77B003656EE /* AddPlayersSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918BC2BF3C77B003656EE /* AddPlayersSheet.swift */; };
 		C782F93F2BFDFEF00005F8A9 /* BackgroundFinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C782F93E2BFDFEF00005F8A9 /* BackgroundFinalView.swift */; };
+		C78943A02C4515A800899D19 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C789439F2C4515A800899D19 /* Launch Screen.storyboard */; };
 		C7BB7EE92BFF64A100A28EF1 /* PopUpChangePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB7EE82BFF64A100A28EF1 /* PopUpChangePlayer.swift */; };
 		C7E0B4862BFB488D009CB711 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C7E0B4852BFB488D009CB711 /* ConfettiSwiftUI */; };
 		C7E0B4882BFD09FD009CB711 /* PopUpChangeAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0B4872BFD09FD009CB711 /* PopUpChangeAppState.swift */; };
@@ -56,6 +57,7 @@
 		C76918BC2BF3C77B003656EE /* AddPlayersSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayersSheet.swift; sourceTree = "<group>"; };
 		C782F93D2BFDFC960005F8A9 /* Guess-Who-Answered-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Guess-Who-Answered-Info.plist"; sourceTree = SOURCE_ROOT; };
 		C782F93E2BFDFEF00005F8A9 /* BackgroundFinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundFinalView.swift; sourceTree = "<group>"; };
+		C789439F2C4515A800899D19 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C7BB7EE82BFF64A100A28EF1 /* PopUpChangePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpChangePlayer.swift; sourceTree = "<group>"; };
 		C7E0B4872BFD09FD009CB711 /* PopUpChangeAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpChangeAppState.swift; sourceTree = "<group>"; };
 		C7E3F83B2C05E45000F871F3 /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				C76918B22BF353F5003656EE /* SetAnswersView.swift */,
 				C769188A2BF22BAC003656EE /* InGameView.swift */,
 				C76918AA2BF26E55003656EE /* ScoresView.swift */,
+				C789439F2C4515A800899D19 /* Launch Screen.storyboard */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			files = (
 				C7E784872C0B363D006A266C /* questions.json in Resources */,
 				C76918902BF22BAD003656EE /* Preview Assets.xcassets in Resources */,
+				C78943A02C4515A800899D19 /* Launch Screen.storyboard in Resources */,
 				C769188D2BF22BAD003656EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,11 +418,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Guess-Who-Answered-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Guess Who Answered";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,11 +450,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Guess-Who-Answered-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Guess Who Answered";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

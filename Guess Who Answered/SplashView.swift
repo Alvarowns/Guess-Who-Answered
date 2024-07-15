@@ -10,8 +10,8 @@ import SwiftUI
 struct SplashView: View {
     @EnvironmentObject private var viewModel: MainViewVM
     
-    @State private var setUpLogo: Bool = false
-    @State private var animationBounce: Bool = false
+    @State private var size: Double = 0.8
+    @State private var opacity: Double = 0.5
     
     var body: some View {
         ZStack {
@@ -24,17 +24,16 @@ struct SplashView: View {
                     .shadow(radius: 3, y: 5)
                     .shadowPop()
                     .titleStyle()
-                    .opacity(setUpLogo ? 1.0 : 0.0)
-                    .scaleEffect(animationBounce ? 1.1 : 0.9)
-                    .animation(
-                        Animation.bouncy.repeatCount(5), value: animationBounce
-                    )
+                    .scaleEffect(size)
+                    .opacity(opacity)
         }
         .onAppear {
             Task {
                 try await Task.sleep(nanoseconds: 2_000_000_000)
-                setUpLogo.toggle()
-                animationBounce.toggle()
+                withAnimation(.easeIn(duration: 1.5)) {
+                    self.size = 1.0
+                    self.opacity = 1.0
+                }
                 try await Task.sleep(nanoseconds: 5_000_000_000)
                 viewModel.appState = .startingView
             }
