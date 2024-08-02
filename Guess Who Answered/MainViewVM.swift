@@ -35,7 +35,10 @@ class MainViewVM: ObservableObject {
     }
     
     func getQuestions() throws -> [String] {
-        guard let url = Bundle.main.url(forResource: "questions", withExtension: "json") else { return [] }
+        let languageCode = Locale.current.language.languageCode?.identifier ?? "en"
+        let fileName = "questions_\(languageCode)"
+        
+        guard let url = Bundle.main.url(forResource: fileName, withExtension: "json") else { return []}
         let data = try Data(contentsOf: url)
         
         return try JSONDecoder().decode([String].self, from: data)

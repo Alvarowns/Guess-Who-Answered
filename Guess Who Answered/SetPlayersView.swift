@@ -43,8 +43,9 @@ struct SetPlayersView: View {
                     
                     HStack {
                         Spacer()
+                        Spacer()
                         
-                        Text("    Añade jugadores")
+                        Text("Añadir jugador")
                         
                         Spacer()
                         
@@ -114,7 +115,16 @@ struct SetPlayersView: View {
                 .alert("¿Vas a jugar sólo?\nAñade más jugadores, anda...", isPresented: $noPlayersAlert) {}
                 .alert("¡Entre dos no tiene gracia!\nAñade más jugadores, anda...", isPresented: $twoPlayersAlert) {}
                 
-                PopUpChangeAppStateBetweenTwo(title: "¿QUIERES AÑADIR TUS PROPIAS PREGUNTAS?", buttonTitle1: "Añadir", buttonTitle2: "Saltar", appState1: $appState1, appState2: $appState2, playingWithCustomQuestionIsTrue: .constant(true), playingWithCustomQuestionIsFalse: .constant(false), focusState: $popUp)
+                PopUpChangeAppStateBetweenTwo(
+                    title: NSLocalizedString("¿QUIERES AÑADIR TUS PROPIAS PREGUNTAS?", comment: "Prompt for adding custom questions"),
+                    buttonTitle1: NSLocalizedString("Añadir", comment: "Add"),
+                    buttonTitle2: NSLocalizedString("Saltar", comment: "Skip"),
+                    appState1: $appState1,
+                    appState2: $appState2,
+                    playingWithCustomQuestionIsTrue: .constant(true),
+                    playingWithCustomQuestionIsFalse: .constant(false),
+                    focusState: $popUp
+                )
                     .opacity(popUp ? 1.0 : 0.0)
             }
     }

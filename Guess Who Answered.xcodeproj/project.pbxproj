@@ -25,13 +25,19 @@
 		C76918B92BF35737003656EE /* AddPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918B82BF35737003656EE /* AddPlayers.swift */; };
 		C76918BB2BF3C6EF003656EE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918BA2BF3C6EF003656EE /* MainView.swift */; };
 		C76918BD2BF3C77B003656EE /* AddPlayersSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76918BC2BF3C77B003656EE /* AddPlayersSheet.swift */; };
+		C774929D2C5CCC1E00529E4C /* questions_fr.json in Resources */ = {isa = PBXBuildFile; fileRef = C77492982C5CCC1E00529E4C /* questions_fr.json */; };
+		C774929E2C5CCC1E00529E4C /* questions_lt.json in Resources */ = {isa = PBXBuildFile; fileRef = C77492992C5CCC1E00529E4C /* questions_lt.json */; };
+		C774929F2C5CCC1E00529E4C /* questions_pt.json in Resources */ = {isa = PBXBuildFile; fileRef = C774929A2C5CCC1E00529E4C /* questions_pt.json */; };
+		C77492A02C5CCC1E00529E4C /* questions_de.json in Resources */ = {isa = PBXBuildFile; fileRef = C774929B2C5CCC1E00529E4C /* questions_de.json */; };
+		C77492A12C5CCC1E00529E4C /* questions_en.json in Resources */ = {isa = PBXBuildFile; fileRef = C774929C2C5CCC1E00529E4C /* questions_en.json */; };
+		C77492A32C5CCD7300529E4C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C77492A22C5CCD7300529E4C /* Localizable.xcstrings */; };
 		C782F93F2BFDFEF00005F8A9 /* BackgroundFinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C782F93E2BFDFEF00005F8A9 /* BackgroundFinalView.swift */; };
 		C78943A02C4515A800899D19 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C789439F2C4515A800899D19 /* Launch Screen.storyboard */; };
 		C7BB7EE92BFF64A100A28EF1 /* PopUpChangePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB7EE82BFF64A100A28EF1 /* PopUpChangePlayer.swift */; };
 		C7E0B4862BFB488D009CB711 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C7E0B4852BFB488D009CB711 /* ConfettiSwiftUI */; };
 		C7E0B4882BFD09FD009CB711 /* PopUpChangeAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E0B4872BFD09FD009CB711 /* PopUpChangeAppState.swift */; };
 		C7E3F83C2C05E45000F871F3 /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E3F83B2C05E45000F871F3 /* InstructionsView.swift */; };
-		C7E784872C0B363D006A266C /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E784862C0B363D006A266C /* questions.json */; };
+		C7E784872C0B363D006A266C /* questions_es.json in Resources */ = {isa = PBXBuildFile; fileRef = C7E784862C0B363D006A266C /* questions_es.json */; };
 		C7F843C32C009C0D00398B0E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F843C22C009C0D00398B0E /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,13 +61,19 @@
 		C76918B82BF35737003656EE /* AddPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayers.swift; sourceTree = "<group>"; };
 		C76918BA2BF3C6EF003656EE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C76918BC2BF3C77B003656EE /* AddPlayersSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayersSheet.swift; sourceTree = "<group>"; };
+		C77492982C5CCC1E00529E4C /* questions_fr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_fr.json; sourceTree = "<group>"; };
+		C77492992C5CCC1E00529E4C /* questions_lt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_lt.json; sourceTree = "<group>"; };
+		C774929A2C5CCC1E00529E4C /* questions_pt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_pt.json; sourceTree = "<group>"; };
+		C774929B2C5CCC1E00529E4C /* questions_de.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_de.json; sourceTree = "<group>"; };
+		C774929C2C5CCC1E00529E4C /* questions_en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_en.json; sourceTree = "<group>"; };
+		C77492A22C5CCD7300529E4C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		C782F93D2BFDFC960005F8A9 /* Guess-Who-Answered-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Guess-Who-Answered-Info.plist"; sourceTree = SOURCE_ROOT; };
 		C782F93E2BFDFEF00005F8A9 /* BackgroundFinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundFinalView.swift; sourceTree = "<group>"; };
 		C789439F2C4515A800899D19 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C7BB7EE82BFF64A100A28EF1 /* PopUpChangePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpChangePlayer.swift; sourceTree = "<group>"; };
 		C7E0B4872BFD09FD009CB711 /* PopUpChangeAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpChangeAppState.swift; sourceTree = "<group>"; };
 		C7E3F83B2C05E45000F871F3 /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
-		C7E784862C0B363D006A266C /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		C7E784862C0B363D006A266C /* questions_es.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions_es.json; sourceTree = "<group>"; };
 		C7F843C22C009C0D00398B0E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +92,7 @@
 		C769187C2BF22BAC003656EE = {
 			isa = PBXGroup;
 			children = (
+				C77492A22C5CCD7300529E4C /* Localizable.xcstrings */,
 				C76918872BF22BAC003656EE /* Guess Who Answered */,
 				C76918862BF22BAC003656EE /* Products */,
 			);
@@ -104,7 +117,12 @@
 				C76918A52BF268BC003656EE /* Models */,
 				C76918A12BF26894003656EE /* Extensions */,
 				C769188C2BF22BAD003656EE /* Assets.xcassets */,
-				C7E784862C0B363D006A266C /* questions.json */,
+				C7E784862C0B363D006A266C /* questions_es.json */,
+				C774929B2C5CCC1E00529E4C /* questions_de.json */,
+				C774929C2C5CCC1E00529E4C /* questions_en.json */,
+				C77492982C5CCC1E00529E4C /* questions_fr.json */,
+				C77492992C5CCC1E00529E4C /* questions_lt.json */,
+				C774929A2C5CCC1E00529E4C /* questions_pt.json */,
 				C769188E2BF22BAD003656EE /* Preview Content */,
 			);
 			path = "Guess Who Answered";
@@ -227,6 +245,12 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				fr,
+				"pt-PT",
+				it,
+				lt,
+				de,
 			);
 			mainGroup = C769187C2BF22BAC003656EE;
 			packageReferences = (
@@ -246,10 +270,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E784872C0B363D006A266C /* questions.json in Resources */,
+				C7E784872C0B363D006A266C /* questions_es.json in Resources */,
 				C76918902BF22BAD003656EE /* Preview Assets.xcassets in Resources */,
 				C78943A02C4515A800899D19 /* Launch Screen.storyboard in Resources */,
+				C774929E2C5CCC1E00529E4C /* questions_lt.json in Resources */,
+				C77492A12C5CCC1E00529E4C /* questions_en.json in Resources */,
+				C77492A02C5CCC1E00529E4C /* questions_de.json in Resources */,
+				C77492A32C5CCD7300529E4C /* Localizable.xcstrings in Resources */,
+				C774929F2C5CCC1E00529E4C /* questions_pt.json in Resources */,
 				C769188D2BF22BAD003656EE /* Assets.xcassets in Resources */,
+				C774929D2C5CCC1E00529E4C /* questions_fr.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +459,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AlvsiOSdev.Guess-Who-Answered";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -461,7 +491,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AlvsiOSdev.Guess-Who-Answered";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
